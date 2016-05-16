@@ -34,6 +34,6 @@ class WordsController < ApplicationController
     # @quote = wod.word_of_day_usage_quote
     # @by = wod.word_of_day_usage_by
     
-    logger.debug "Word of the day:  #{@wod} #{@meaning} #{@pos} #{@pronounciation}"
+    logger.debug "Word of the day:  #{@quote_of_day_arr}"
   end
 end

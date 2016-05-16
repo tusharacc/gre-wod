@@ -24,7 +24,7 @@
     </div>
     <div class="col-md-4" style="background-color:#80d4ff;opacity: 1.0;" id="set-opacity">
       <h3 class="text-capitalize text-left">  <%= @wod_array[2][0] %> <span class="text-primary small"><%= @wod_array[2][1] %></span></br></h3>
-      <p class="small"> <%= @wod_array[1][2] %> </p>
+      <p class="small"> <%= @wod_array[2][2] %> </p>
       <p> <%= @wod_array[2][3] %> </p>
       <blockquote>
         <p><%= @wod_array[2][4] %></p>
@@ -45,12 +45,14 @@
         <footer><%= @wod_array[3][5] %></footer>
       </blockquote>
     </div>
-    <div class="col-md-8" style="background-color:#b3e6ff;opacity: 1.0;" id="set-opacity">
+    <div class="col-md-8" style="background-color:black;color:white">
       
-      <blockquote>
-        <p><%= @quote_of_day_arr[0][0] %></p>
-        <footer><%= @quote_of_day_arr[0][1] %></footer>
-      </blockquote>
+      
+        <p class="text-justify" style="margin-top:25%" ><%= @quote_of_day_arr[0][:quote] %></p>
+        <p class="small">---<em><%= @quote_of_day_arr[0][:author] %></em></p>
+        <p><i>for more quotes, go to <a href="theysaidso.com"><kbd>They Said So</kbd></a></a></i></p>
+        
+      
     </div>
   </div>
 </div>
