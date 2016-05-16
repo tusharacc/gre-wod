@@ -57,5 +57,5 @@ gem 'autoprefixer-rails'
 gem 'httparty'
 gem 'rails_12factor', group: :production
 
-gem ruby "2.3.0"
+ruby "2.3.0"
 
