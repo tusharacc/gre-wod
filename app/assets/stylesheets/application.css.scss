@@ -45,3 +45,14 @@ body{
 #set-opacity{
   opacity: 1.0;
 }
+
+@media all and (max-width:800px) //800px for tablets and phones.
+{
+    #set-opacity
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+}
+
